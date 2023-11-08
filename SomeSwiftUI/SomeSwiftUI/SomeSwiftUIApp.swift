@@ -13,8 +13,13 @@ struct SomeSwiftUIApp: App {
 
     var body: some Scene {
         WindowGroup {
+            /// Base
+            /*
             ContentView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            */
+            ContentView1()
+            
         }
     }
 }
