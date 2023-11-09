@@ -9,12 +9,55 @@ import SwiftUI
 
 struct ContentView4: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        let colors = Gradient(colors: [
+            .red, .yellow, .green, .blue, .purple])
+        let gradient = RadialGradient(
+            gradient: colors,
+            center: .center,
+            startRadius: 10,
+            endRadius: 100
+        )
+        let angularGradient = AngularGradient.init(
+            gradient: colors,
+            center: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/
+        )
+        
+        return
+        VStack {
+            Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+                .font(.largeTitle)
+                .padding()
+                .foregroundColor(.white)
+                .background(
+                    LinearGradient(
+                        gradient: colors,
+                        startPoint: /*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/,
+                        endPoint: /*@START_MENU_TOKEN@*/.trailing/*@END_MENU_TOKEN@*/
+                    ))
+                //.strikethrough()
+            Circle()
+                //.fill(gradient)
+                .frame(
+                    width: 200,
+                    height: 200
+                )
+                .border(angularGradient, width: 50)
+            
+            Capsule()
+                //.fill(angularGradient)
+                .frame(
+                    width: 200,
+                    height: 200
+                )
+                .border(angularGradient, width: 50)
+                
+                
+            
+        }
+        
     }
 }
 
-struct ContentView4_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView4()
-    }
+#Preview {
+    ContentView4()
 }
