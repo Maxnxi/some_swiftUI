@@ -20,6 +20,9 @@
 		0512A2B32AFA80C700C8B731 /* ContentView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0512A2B22AFA80C700C8B731 /* ContentView2.swift */; };
 		0512A2B52AFA828B00C8B731 /* ContentView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0512A2B42AFA828B00C8B731 /* ContentView3.swift */; };
 		0512A2B72AFA84D000C8B731 /* ContentView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0512A2B62AFA84D000C8B731 /* ContentView4.swift */; };
+		0519B9C82B033DAF002CB77B /* ContentView5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0519B9C72B033DAF002CB77B /* ContentView5.swift */; };
+		0519B9CA2B033E8F002CB77B /* ContentView6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0519B9C92B033E8F002CB77B /* ContentView6.swift */; };
+		0519B9CC2B035383002CB77B /* ContentView7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0519B9CB2B035383002CB77B /* ContentView7.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +59,9 @@
 		0512A2B22AFA80C700C8B731 /* ContentView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView2.swift; sourceTree = "<group>"; };
 		0512A2B42AFA828B00C8B731 /* ContentView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView3.swift; sourceTree = "<group>"; };
 		0512A2B62AFA84D000C8B731 /* ContentView4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView4.swift; sourceTree = "<group>"; };
+		0519B9C72B033DAF002CB77B /* ContentView5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView5.swift; sourceTree = "<group>"; };
+		0519B9C92B033E8F002CB77B /* ContentView6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView6.swift; sourceTree = "<group>"; };
+		0519B9CB2B035383002CB77B /* ContentView7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView7.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +164,9 @@
 				0512A2B22AFA80C700C8B731 /* ContentView2.swift */,
 				0512A2B42AFA828B00C8B731 /* ContentView3.swift */,
 				0512A2B62AFA84D000C8B731 /* ContentView4.swift */,
+				0519B9C72B033DAF002CB77B /* ContentView5.swift */,
+				0519B9C92B033E8F002CB77B /* ContentView6.swift */,
+				0519B9CB2B035383002CB77B /* ContentView7.swift */,
 			);
 			path = Part1;
 			sourceTree = "<group>";
@@ -310,10 +319,13 @@
 				0512A2852AFA79D800C8B731 /* Persistence.swift in Sources */,
 				0512A27E2AFA79D700C8B731 /* ContentView.swift in Sources */,
 				0512A2B52AFA828B00C8B731 /* ContentView3.swift in Sources */,
+				0519B9CA2B033E8F002CB77B /* ContentView6.swift in Sources */,
 				0512A27C2AFA79D700C8B731 /* SomeSwiftUIApp.swift in Sources */,
 				0512A2B32AFA80C700C8B731 /* ContentView2.swift in Sources */,
 				0512A2AF2AFA7BF100C8B731 /* ContentView1.swift in Sources */,
+				0519B9C82B033DAF002CB77B /* ContentView5.swift in Sources */,
 				0512A2882AFA79D800C8B731 /* SomeSwiftUI.xcdatamodeld in Sources */,
+				0519B9CC2B035383002CB77B /* ContentView7.swift in Sources */,
 				0512A2B72AFA84D000C8B731 /* ContentView4.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
