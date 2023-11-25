@@ -18,7 +18,7 @@ struct SomeSwiftUIApp: App {
             ContentView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
             */
-            ContentView1()
+            ContentView20()
             
         }
     }
