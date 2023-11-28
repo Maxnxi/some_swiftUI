@@ -43,6 +43,11 @@
 		B7D978022B148C49009194EF /* ContentView24.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D978012B148C49009194EF /* ContentView24.swift */; };
 		B7D978042B1498FC009194EF /* ContentView25.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D978032B1498FC009194EF /* ContentView25.swift */; };
 		B7D978062B149982009194EF /* ContentView26.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D978052B149982009194EF /* ContentView26.swift */; };
+		B7D978082B15A759009194EF /* ContentView27.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D978072B15A759009194EF /* ContentView27.swift */; };
+		B7D9780A2B15A8C4009194EF /* ContentView28.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D978092B15A8C4009194EF /* ContentView28.swift */; };
+		B7D9780C2B15A983009194EF /* ContentView29.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D9780B2B15A983009194EF /* ContentView29.swift */; };
+		B7D9780E2B15B0F3009194EF /* ContentView30.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D9780D2B15B0F3009194EF /* ContentView30.swift */; };
+		B7D978112B15B5EA009194EF /* RingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D978102B15B5EA009194EF /* RingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +107,11 @@
 		B7D978012B148C49009194EF /* ContentView24.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView24.swift; sourceTree = "<group>"; };
 		B7D978032B1498FC009194EF /* ContentView25.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView25.swift; sourceTree = "<group>"; };
 		B7D978052B149982009194EF /* ContentView26.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView26.swift; sourceTree = "<group>"; };
+		B7D978072B15A759009194EF /* ContentView27.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView27.swift; sourceTree = "<group>"; };
+		B7D978092B15A8C4009194EF /* ContentView28.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView28.swift; sourceTree = "<group>"; };
+		B7D9780B2B15A983009194EF /* ContentView29.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView29.swift; sourceTree = "<group>"; };
+		B7D9780D2B15B0F3009194EF /* ContentView30.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView30.swift; sourceTree = "<group>"; };
+		B7D978102B15B5EA009194EF /* RingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,6 +201,7 @@
 			isa = PBXGroup;
 			children = (
 				0512A2B12AFA7C0100C8B731 /* Base */,
+				B7D9780F2B15B5D4009194EF /* Part3 */,
 				0512A2AD2AFA7BDF00C8B731 /* Part2 */,
 				0512A2AC2AFA7BD800C8B731 /* Part1 */,
 			);
@@ -234,6 +245,10 @@
 				B7D978012B148C49009194EF /* ContentView24.swift */,
 				B7D978032B1498FC009194EF /* ContentView25.swift */,
 				B7D978052B149982009194EF /* ContentView26.swift */,
+				B7D978072B15A759009194EF /* ContentView27.swift */,
+				B7D978092B15A8C4009194EF /* ContentView28.swift */,
+				B7D9780B2B15A983009194EF /* ContentView29.swift */,
+				B7D9780D2B15B0F3009194EF /* ContentView30.swift */,
 			);
 			path = Part2;
 			sourceTree = "<group>";
@@ -244,6 +259,14 @@
 				0512A27D2AFA79D700C8B731 /* ContentView.swift */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		B7D9780F2B15B5D4009194EF /* Part3 */ = {
+			isa = PBXGroup;
+			children = (
+				B7D978102B15B5EA009194EF /* RingView.swift */,
+			);
+			path = Part3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -381,18 +404,23 @@
 				0512A2852AFA79D800C8B731 /* Persistence.swift in Sources */,
 				0512A27E2AFA79D700C8B731 /* ContentView.swift in Sources */,
 				B7D24D352B10B55A004C1E6D /* ContentViewEx2.swift in Sources */,
+				B7D9780C2B15A983009194EF /* ContentView29.swift in Sources */,
 				0512A2B52AFA828B00C8B731 /* ContentView3.swift in Sources */,
 				B7D24D3F2B10CDA1004C1E6D /* ContentView21.swift in Sources */,
 				B7D24D232B1063D0004C1E6D /* ContentView8.swift in Sources */,
 				B7D24D392B10B9E1004C1E6D /* ContentView18.swift in Sources */,
 				B7D24D2D2B108055004C1E6D /* ContentView13.swift in Sources */,
 				0519B9CA2B033E8F002CB77B /* ContentView6.swift in Sources */,
+				B7D978112B15B5EA009194EF /* RingView.swift in Sources */,
 				B7D24D332B10A2EE004C1E6D /* ContentView16.swift in Sources */,
 				B7D24D272B106EAB004C1E6D /* ContentView10.swift in Sources */,
+				B7D978082B15A759009194EF /* ContentView27.swift in Sources */,
 				0512A27C2AFA79D700C8B731 /* SomeSwiftUIApp.swift in Sources */,
 				B7D24D2B2B1079BF004C1E6D /* ContentView12.swift in Sources */,
+				B7D9780A2B15A8C4009194EF /* ContentView28.swift in Sources */,
 				B7D24D2F2B108AD6004C1E6D /* ContentView14.swift in Sources */,
 				0512A2B32AFA80C700C8B731 /* ContentView2.swift in Sources */,
+				B7D9780E2B15B0F3009194EF /* ContentView30.swift in Sources */,
 				B7D24D372B10B791004C1E6D /* ContentView17.swift in Sources */,
 				B7D24D412B10DD44004C1E6D /* ContentView22.swift in Sources */,
 				0512A2AF2AFA7BF100C8B731 /* ContentView1.swift in Sources */,
