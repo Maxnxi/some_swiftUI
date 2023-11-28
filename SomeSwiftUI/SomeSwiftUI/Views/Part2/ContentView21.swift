@@ -5,6 +5,7 @@
 //  Created by Maksim Ponomarev on 24.11.2023.
 //
 
+
 import SwiftUI
 
 struct ContentView21: View {
@@ -92,3 +93,7 @@ struct ContentView21: View {
 #Preview {
     ContentView21()
 }
+
+
+/// more info
+///  https://ericasadun.com/2020/06/25/coloring-svg-assets-in-swiftui/
