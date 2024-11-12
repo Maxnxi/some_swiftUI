@@ -1,0 +1,15 @@
+{
+  "originHash" : "5213606dcc5bd24917dafd81d2d8d9edb2a64552f724407250e059f396c3aaa6",
+  "pins" : [
+    {
+      "identity" : "verticalsplit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/vedantgurav/VerticalSplit",
+      "state" : {
+        "branch" : "main",
+        "revision" : "2b50905a8aab52e6e1e50d4769d3c60f2a630859"
+      }
+    }
+  ],
+  "version" : 3
+}

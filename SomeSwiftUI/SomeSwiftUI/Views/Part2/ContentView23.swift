@@ -14,7 +14,12 @@ struct CurveShape: View {
             path.move(to: CGPoint(x: 0, y: 0))
             path.addLine(to: CGPoint(x: UIScreen.main.bounds.width, y: 0))
             path.addLine(to: CGPoint(x: UIScreen.main.bounds.width, y: heightConst))
-            path.addArc(center: CGPoint(x: UIScreen.main.bounds.width / 2, y: heightConst), radius: 30, startAngle: .zero, endAngle: .init(degrees: 180), clockwise: true)
+            path.addArc(
+                center: CGPoint(x: UIScreen.main.bounds.width / 2, y: heightConst),
+                radius: 30,
+                startAngle: .zero,
+                endAngle: .init(degrees: 180),
+                clockwise: true)
             
             path.addLine(to: CGPoint(x: 0, y: heightConst))
         }

@@ -20,6 +20,7 @@ struct ContentView21: View {
                 .overlay(RoundedRectangle(cornerRadius: 15)
                     .stroke(Color.green, lineWidth: 5)
                 )
+//                .font(Font.custom("Roboto", size: 17))
             
             Text("Hello, World! 1")
                 .border(.red, width: 5)
