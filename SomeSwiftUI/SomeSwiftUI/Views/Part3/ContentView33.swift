@@ -11,7 +11,10 @@ import SwiftUI
 
 struct ContentView33: View {
 	var body: some View {
-		VerticalSplit(topTitle: "Hello", bottomTitle: "Bye") {
+		VerticalSplit(
+			topTitle: "Hello",
+			bottomTitle: "Bye"
+		) {
 			VStack {
 				Text(LocalizedStringKey("Welcome"))
 					.font(.title)
@@ -33,7 +36,7 @@ struct ContentView33: View {
 	ContentView33()
 		.environment(
 			\.locale,
-				.init(identifier: "de")
+			 .init(identifier: "de")
 		)
 }
 
