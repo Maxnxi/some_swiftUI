@@ -56,6 +56,7 @@
 		B7D9780C2B15A983009194EF /* ContentView29.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D9780B2B15A983009194EF /* ContentView29.swift */; };
 		B7D9780E2B15B0F3009194EF /* ContentView30.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D9780D2B15B0F3009194EF /* ContentView30.swift */; };
 		B7D978112B15B5EA009194EF /* RingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D978102B15B5EA009194EF /* RingView.swift */; };
+		B7FCED312CE7A4CA006C69C2 /* ContentView36.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FCED302CE7A4CA006C69C2 /* ContentView36.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -128,6 +129,7 @@
 		B7D9780B2B15A983009194EF /* ContentView29.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView29.swift; sourceTree = "<group>"; };
 		B7D9780D2B15B0F3009194EF /* ContentView30.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView30.swift; sourceTree = "<group>"; };
 		B7D978102B15B5EA009194EF /* RingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingView.swift; sourceTree = "<group>"; };
+		B7FCED302CE7A4CA006C69C2 /* ContentView36.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView36.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -300,6 +302,7 @@
 		B7D9780F2B15B5D4009194EF /* Part3 */ = {
 			isa = PBXGroup;
 			children = (
+				B7FCED302CE7A4CA006C69C2 /* ContentView36.swift */,
 				B748ACA42CE6553100723FEB /* ContentView35.swift */,
 				B748AC7A2CE4EF4500723FEB /* ContentView34.swift */,
 				B7A94B082CE3A7D200329A68 /* ContentView33.swift */,
@@ -455,6 +458,7 @@
 				0512A2B52AFA828B00C8B731 /* ContentView3.swift in Sources */,
 				B7D24D3F2B10CDA1004C1E6D /* ContentView21.swift in Sources */,
 				B7D24D232B1063D0004C1E6D /* ContentView8.swift in Sources */,
+				B7FCED312CE7A4CA006C69C2 /* ContentView36.swift in Sources */,
 				B7D24D392B10B9E1004C1E6D /* ContentView18.swift in Sources */,
 				B7D24D2D2B108055004C1E6D /* ContentView13.swift in Sources */,
 				0519B9CA2B033E8F002CB77B /* ContentView6.swift in Sources */,

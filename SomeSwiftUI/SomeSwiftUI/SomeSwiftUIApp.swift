@@ -18,13 +18,7 @@ struct SomeSwiftUIApp: App {
             ContentView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
             */
-			ContentView35(
-				text: .constant("SwiftUI"),
-				fontColor: .constant(.yellow),
-				fontSize: .constant(200),
-				background: .constant(.green),
-				duration: .constant(5)
-			)
+			ContentView36()
 			.environment(\.locale, .init(identifier: "de"))
         }
     }
