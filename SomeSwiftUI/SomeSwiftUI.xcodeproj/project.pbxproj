@@ -31,6 +31,7 @@
 		B748ACA52CE6553900723FEB /* ContentView35.swift in Sources */ = {isa = PBXBuildFile; fileRef = B748ACA42CE6553100723FEB /* ContentView35.swift */; };
 		B7A94B092CE3A7DC00329A68 /* ContentView33.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A94B082CE3A7D200329A68 /* ContentView33.swift */; };
 		B7A94B0C2CE3A93A00329A68 /* VerticalSplit in Frameworks */ = {isa = PBXBuildFile; productRef = B7A94B0B2CE3A93A00329A68 /* VerticalSplit */; };
+		B7B201EC2CE8E891008C2A2F /* ContentView37.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B201EB2CE8E891008C2A2F /* ContentView37.swift */; };
 		B7D24D232B1063D0004C1E6D /* ContentView8.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D24D222B1063D0004C1E6D /* ContentView8.swift */; };
 		B7D24D252B106B82004C1E6D /* ContentView9.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D24D242B106B82004C1E6D /* ContentView9.swift */; };
 		B7D24D272B106EAB004C1E6D /* ContentView10.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D24D262B106EAB004C1E6D /* ContentView10.swift */; };
@@ -104,6 +105,7 @@
 		B748AC7A2CE4EF4500723FEB /* ContentView34.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView34.swift; sourceTree = "<group>"; };
 		B748ACA42CE6553100723FEB /* ContentView35.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView35.swift; sourceTree = "<group>"; };
 		B7A94B082CE3A7D200329A68 /* ContentView33.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView33.swift; sourceTree = "<group>"; };
+		B7B201EB2CE8E891008C2A2F /* ContentView37.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView37.swift; sourceTree = "<group>"; };
 		B7D24D222B1063D0004C1E6D /* ContentView8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView8.swift; sourceTree = "<group>"; };
 		B7D24D242B106B82004C1E6D /* ContentView9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView9.swift; sourceTree = "<group>"; };
 		B7D24D262B106EAB004C1E6D /* ContentView10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView10.swift; sourceTree = "<group>"; };
@@ -308,6 +310,7 @@
 				B7A94B082CE3A7D200329A68 /* ContentView33.swift */,
 				B7D978102B15B5EA009194EF /* RingView.swift */,
 				B73A1CE32B28699B0003267F /* ContentView31.swift */,
+				B7B201EB2CE8E891008C2A2F /* ContentView37.swift */,
 			);
 			path = Part3;
 			sourceTree = "<group>";
@@ -458,6 +461,7 @@
 				0512A2B52AFA828B00C8B731 /* ContentView3.swift in Sources */,
 				B7D24D3F2B10CDA1004C1E6D /* ContentView21.swift in Sources */,
 				B7D24D232B1063D0004C1E6D /* ContentView8.swift in Sources */,
+				B7B201EC2CE8E891008C2A2F /* ContentView37.swift in Sources */,
 				B7FCED312CE7A4CA006C69C2 /* ContentView36.swift in Sources */,
 				B7D24D392B10B9E1004C1E6D /* ContentView18.swift in Sources */,
 				B7D24D2D2B108055004C1E6D /* ContentView13.swift in Sources */,
@@ -655,6 +659,7 @@
 		0512A2A22AFA79D900C8B731 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "AppIcon3 AppIcon2 AppIcon1";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -668,7 +673,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -685,6 +690,7 @@
 		0512A2A32AFA79D900C8B731 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "AppIcon3 AppIcon2 AppIcon1";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -698,7 +704,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
