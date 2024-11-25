@@ -18,7 +18,7 @@ struct SomeSwiftUIApp: App {
             ContentView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
             */
-			ContentView37()
+			ContentView39(path: .constant(.init()))
 			.environment(\.locale, .init(identifier: "de"))
         }
     }
