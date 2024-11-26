@@ -320,8 +320,16 @@
 				B7B6C5E62CF0E71D008ECD23 /* ContentView38.swift */,
 				B7C898362CF2120E00EC0BF2 /* ContentView39.swift */,
 				B7F21EDA2CF60B720070801C /* ContentView40.swift */,
+				B7F21EDC2CF60CA20070801C /* Components */,
 			);
 			path = Part3;
+			sourceTree = "<group>";
+		};
+		B7F21EDC2CF60CA20070801C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
